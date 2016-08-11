@@ -13,7 +13,7 @@
     <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
     <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
 </head>
-<body>
+<body style="visibility: inherit;">
 
 <input type="checkbox" id="nav-trigger" class="nav-trigger" />
 <label for="nav-trigger" class="navicon-button x">
@@ -27,11 +27,16 @@
 </nav>
 
 <div id="main">
+
+  
     <?js if (title != 'Home') { ?>
     <h1 class="page-title"><?js= title ?></h1>
     <?js } ?>
 
     <?js= content ?>
+
+    <div id="test-image"></div>
+
 </div>
 
 <br class="clear">
@@ -42,5 +47,10 @@
 
 <script>prettyPrint();</script>
 <script src="scripts/linenumber.js"></script>
+<script src="scripts/main.js"></script>
+<script src="https://npmcdn.com/ipfs-api/dist/index.js"></script>
+
 </body>
+
+
 </html>

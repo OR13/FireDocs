@@ -1,5 +1,5 @@
 {
-  "name": "FireDocs",
+  "name": "firedocs",
   "version": "1.1.1",
   "description": "A Firebase and IPFS based JSDocs theme built from the awesome theme FireDocs",
   "main": "publish.js",
