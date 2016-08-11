@@ -1,22 +1,22 @@
 {
-  "name": "minami",
+  "name": "FireDocs",
   "version": "1.1.1",
-  "description": "Clean and minimal JSDoc 3 Template / Theme",
+  "description": "A Firebase and IPFS based JSDocs theme built from the awesome theme FireDocs",
   "main": "publish.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Nijikokun/minami.git"
+    "url": "https://github.com/OR13/FireDocs.git"
   },
-  "author": "Nijiko Yonskai <nijikokun@gmail.com>",
+  "author": "Orie Steele <orie@firedax.com>",
   "licenses": [{
     "type": "Apache-2.0",
     "url": "http://www.apache.org/licenses/LICENSE-2.0"
   }],
   "bugs": {
-    "url": "https://github.com/Nijikokun/minami/issues"
+    "url": "https://github.com/OR13/FireDocs/issues"
   },
-  "homepage": "https://github.com/Nijikokun/minami"
+  "homepage": "https://github.com/OR13/FireDocs"
 }

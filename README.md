@@ -1,8 +1,10 @@
-# Minami
+# FireDocs
 
-A clean, responsive documentation template theme for JSDoc 3.
+Firebase and IPFS based JSDocs Template.
 
-![Minami Screenshot](http://puu.sh/gOyNe/66c3adcb97.png)
+All credit goes to [nijikokun([https://github.com/nijikokun/minami).
+
+![FireDocs Screenshot](http://puu.sh/gOyNe/66c3adcb97.png)
 
 ## Uses
 
@@ -13,7 +15,7 @@ A clean, responsive documentation template theme for JSDoc 3.
 ## Install
 
 ```bash
-$ npm install --save-dev minami
+$ npm install --save-dev FireDocs
 ```
 
 ## Usage
@@ -21,7 +23,7 @@ $ npm install --save-dev minami
 Clone repository to your designated `jsdoc` template directory, then:
 
 ```bash
-$ jsdoc entry-file.js -t path/to/minami
+$ jsdoc entry-file.js -t path/to/FireDocs
 ```
 
 ### Node.js Dependency
@@ -38,7 +40,7 @@ In your `.jsdoc.json` file, add a template option.
 
 ```json
 "opts": {
-  "template": "node_modules/minami"
+  "template": "node_modules/FireDocs"
 }
 ```
 
@@ -68,7 +70,7 @@ In your `.jsdoc.json` file, add a template option.
         "encoding": "utf8",
         "private": true,
         "recurse": true,
-        "template": "./node_modules/minami"
+        "template": "./node_modules/FireDocs"
     }
 }
 ```
