@@ -1,6 +1,6 @@
 # FireDocs
 
-Firebase based JSDocs Template.
+Firebase JSDocs Template.
 
 All credit goes to [nijikokun([https://github.com/nijikokun/minami).
 
